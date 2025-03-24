@@ -1,0 +1,699 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+body{
+    margin: auto;
+    background-color: white;
+    font-family: "Arial";
+    font-size: 12px;
+    overflow-x: hidden; /* Impede rolagem horizontal na página inteira */
+  
+    
+   
+ 
+
+
+}
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra */
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra */
+    border-radius: 5px;
+
+}
+#cabecalho{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+ 
+}
+#cabecalho.header{
+    display: flex;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    margin-top: 5px;
+
+}
+
+
+#pesquisa{
+ 
+   height: 20px;
+   background-color: white;
+   border-radius: 5px;
+   border: 1px , solid;
+   padding-right: 1px;
+   margin-left: 10px;
+   text-align: center;
+   display: flex;
+
+}
+
+#pesq{
+   
+    margin-top: 2px;
+    height: 13px;
+    border-color: transparent;
+    border-style: none;
+    outline: none;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    bottom: 1px;
+    width: auto;
+    color: black;
+    z-index: 1;
+    
+}
+
+nav{
+    display: flex; 
+    width: 100%; 
+}
+
+
+ul{   
+    display: flex;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 0%;   
+}
+
+
+li{  
+    margin: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+   
+}
+
+.icones{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+   
+}
+.icones-retorne{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+
+h1{ 
+    position: absolute;
+    margin-left: 1px;
+    font-family: "Dancing Script", cursive;;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -2px;
+    width: 100%;
+    height: 20px;
+
+  
+}
+
+#config{
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 20px; 
+
+}
+
+
+
+#carrinho{
+    margin-right: 13px;
+}
+
+#imgprincipal{
+
+    position: absolute;
+    margin-top: 80px;
+    float: none;
+    width: 100vw;
+    height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+
+ 
+}
+
+#imgPrinc{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 450px;
+    overflow: hidden;
+
+ 
+}
+
+#ul-informes{
+
+    text-align: center;
+    padding: 0%;
+ 
+}
+
+.informes{
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+    margin: 0 60px;
+    text-align: left;
+    display: flex;
+    font-size: 9px;
+
+}
+
+strong{
+    font-size: 12px;
+}
+
+p{  
+    padding-left: 5px;
+}
+.informes :last-child{
+    margin: 0px;/* last-child remover a margin do ultimo item*/
+}
+
+#pai-produtos{
+    top:520px ;
+    display: flex;
+    position: relative;
+    width:100% ;
+    height: 400px;
+    justify-content: center;
+ 
+}
+
+#produtos{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 960px;
+    position: absolute;
+    padding: 0;
+ 
+
+}
+
+h2{ 
+    top: 490px;
+    text-align: center;
+    height: 20px;
+    width:100%;
+    margin-top: 2px;
+    position: absolute;
+
+}
+
+.camisas{
+    margin: 10px;
+    height: 250px;
+    width: 220px;
+    margin-bottom: 30px;
+    font-size: larger;
+    overflow: hidden;
+
+}
+
+.div-camisa{
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img-camisas{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.img-camisas:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.parcelas{
+    position: absolute;
+    color: #5e5e5e;  
+}
+
+.text-camisas{
+    margin-top: 3px;
+}
+
+#pai-outros-produtos{ 
+    margin-top: 700px;
+    justify-content: center;
+}
+
+.outros-produtos{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.div-outros-produtos{
+    margin: 12px;
+    height: 250px;
+    width: 456px;
+    overflow: hidden;
+    
+}
+
+.img-outros-produtos{
+    height: 100%;
+    width: 100%;
+}
+
+.img-outros-produtos:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+footer{
+    margin-top: 120px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    display: flex;
+}
+
+.link-rd{
+    color: white;
+}
+
+.link-rd:hover{
+    color: #c6c6c6;
+}
+
+h3{
+    font-size: medium;
+}
+
+.ul-rodape{
+    text-align: left;
+    margin-top: 0px;
+    flex-direction: column;
+    
+
+  
+}
+
+@media (max-width:500px) /*Tela de tablet*/{
+    #imgprincipal{
+
+        position: absolute;
+        margin-top: 80px;
+        float: none;
+        width: 100vw;
+        height: 230px;
+        margin-left: 0;
+        margin-right: 0;
+    
+     
+    }
+    
+    #imgPrinc{
+        width: 100%;
+        height: 100%;
+    }
+
+    #sobre{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 90px;
+        top: 330px;
+        overflow: hidden;
+     
+     
+     
+    }
+    
+    #ul-informes{
+    
+        text-align: center;
+        padding: 0%;
+     
+    }
+    
+    .informes{
+        margin-top: 0px;
+        width: auto;
+        height: auto;
+        margin: 0 20px;
+        text-align: left;
+        display: flex;
+        font-size: 9px;
+    
+    }
+    
+    strong{
+        font-size: 12px;
+    }
+    
+    p{  
+        padding-left: 1px;
+    }
+    .informes :last-child{
+        margin: 0px;/* last-child remover a margin do ultimo item*/
+    }
+    h2{ 
+        top: 420px;
+        text-align: center;
+        height: 20px;
+        width:100%;
+        margin-top: 2px;
+        position: absolute;
+    
+    }
+    #pai-produtos{
+        top:440px ;
+        display: flex;
+        position: relative;
+        width:100% ;
+        height: 400px;
+        justify-content: center;
+     
+    }
+    #pai-outros-produtos{ 
+        margin-top: 1250px;
+        justify-content: center;
+     
+    }
+    .div-outros-produtos{
+        margin: 12px;
+        height: 160px;
+        width: 350px;
+        overflow: hidden;
+        
+    }
+    footer{
+        margin-top: 1px;
+        background-color: black;
+        justify-content: center;
+        color: white;
+        display: flex;
+    }
+    #pesquisa{
+ 
+        height: 20px;
+        border-radius: 5px;
+        border: 1px , solid;
+        padding-right: 0px;
+        margin-left: 10px;
+        text-align: center;
+        display: flex;
+        width: 166px;
+     
+     }
+     
+     #pesq{
+        
+         margin-top: 2px;
+         height: 13px;
+         border-color: transparent;
+         border-style: none;
+         outline: none;
+         border-radius: 3px;
+         top: 0;
+         left: 0;
+         bottom: 1px;
+         width: 140px;
+      
+     }
+    
+   
+
+ 
+    
+   
+    
+
+}
+
+@media(min-width:320px ) and (max-width:420px) /*tela de celular*/{
+    #pesquisa{
+ 
+        height: 20px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px , solid;
+        padding-right: 1px;
+        margin-left: 10px;
+        text-align: center;
+        display: flex;
+        width: 69%;
+     
+     }
+     
+     #pesq{
+        
+         margin-top: 2px;
+         height: 13px;
+         border-color: transparent;
+         border-style: none;
+         outline: none;
+         border-radius: 3px;
+         top: 0;
+         left: 0;
+         bottom: 1px;
+         width: 100%;
+         color: black;
+         z-index: 1;
+    
+      
+         
+     }
+
+
+    h1{ 
+        position: absolute;
+        margin-left: 1px;
+        font-family: "Dancing Script", cursive;;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 25px;
+        width: 100%;
+        height: 20px;
+    
+      
+    }
+
+    nav{
+        margin-top: 20px;
+        display: flex; 
+        width: 100%; 
+    }
+
+    #imgprincipal{
+
+        position: absolute;
+        margin-top: 80px;
+        float: none;
+        width: 100vw;
+        height: 150px;
+        margin-left: 0;
+        margin-right: 0;
+    
+     
+    }
+
+    #sobre{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        top: 250px;
+ 
+       
+
+     
+    
+     
+    }
+    
+    #ul-informes{
+    
+        text-align: center;
+        padding: 0%;
+        flex-wrap: wrap;
+        margin: auto;
+     
+      
+     
+     
+    }
+    
+    .informes{
+        margin-top: 0px;
+        width: auto;
+        height: auto;
+        margin: 0 17px;
+        text-align: left;
+        display: flex;
+        font-size: 9px;
+        margin-bottom: 8px;
+        padding-left: 3px;
+  
+    
+      
+    
+    }
+    strong{
+        font-size: 10px;
+    }
+    ul .informes:nth-child(2) {
+        margin-left: 6px;
+    }
+    ul .informes:nth-child(3) {
+        margin-left: 19px;
+    }
+    ul .informes:last-child {
+        margin-left: 30px;
+    }
+    
+    .icones-retorne{
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+    
+    }
+    h2{ 
+        top: 330px;
+        text-align: center;
+        height: 20px;
+        width:100%;
+        margin-top: 2px;
+        position: absolute;
+    
+    }
+    #pai-produtos{
+        top:350px ;
+        display: flex;
+        position: relative;
+        width:100% ;
+        height: 400px;
+        justify-content: center;
+     
+    }
+    
+    #produtos{
+    
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        max-width: 960px;
+        position: absolute;
+        padding: 0;
+  
+    
+    }
+    .camisas{
+        margin: 10px;
+        height: 220px;
+        width: 150px;
+        margin-bottom: 5px;
+        font-size: larger;
+        overflow: hidden;
+    margin: auto;
+    
+    }
+    .div-camisa{
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+      
+    }
+    
+    .img-camisas{
+        width: 150px;
+        height: 150px;
+       
+    }
+    #pai-outros-produtos{ 
+        margin-top: 940px;
+        justify-content: center;
+    }
+
+    .outros-produtos{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -50px;
+    }
+
+    .div-outros-produtos{
+        margin: 10px;
+        height: 160px;
+        width: 456px;
+        overflow: hidden;
+        
+    }
+    footer{
+        margin-top: 50px;
+        background-color: black;
+        justify-content: center;
+        color: white;
+        display: flex;
+        font-size: 11px;
+    }
+    h3{
+        font-size: small;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
