@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 body{
     margin: auto;
@@ -109,7 +108,6 @@ a:hover{
     cursor: pointer;
    
 }
-
 .icones-retorne{
     width: 20px;
     height: 20px;
@@ -154,7 +152,6 @@ h1{
     height: 350px;
     margin-left: 0;
     margin-right: 0;
-    overflow: hidden;
 
  
 }
@@ -162,9 +159,7 @@ h1{
 #imgPrinc{
     width: 100%;
     height: 100%;
-  
 }
-
 
 #sobre{
     position: absolute;
@@ -201,14 +196,13 @@ strong{
 
 p{  
     padding-left: 5px;
-   
 }
 .informes :last-child{
     margin: 0px;/* last-child remover a margin do ultimo item*/
 }
 
 #pai-produtos{
-    top:520px ;
+    top:170px ;
     display: flex;
     position: relative;
     width:100% ;
@@ -229,13 +223,14 @@ p{
 
 }
 
-h2{ 
-    top: 490px;
+h2{ font-size: x-large;
+    top: 120px;
     text-align: center;
-    height: 20px;
+    height: 28px;
     width:100%;
     margin-top: 2px;
     position: absolute;
+
 
 }
 
@@ -275,8 +270,64 @@ h2{
     margin-top: 3px;
 }
 
+
+
+#pai-cadastro{
+    display: flex;
+    margin-top: 650px;
+    height: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    justify-content: center;  
+
+}
+#cadastro{
+    max-width: 960px;
+
+}
+
+label{
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+font-size: 15px;}
+#marca{
+    padding-top: 0%;
+    margin-right: 10px;
+    margin-top: 1px;
+    font-family: "Dancing Script", cursive;;
+    font-size: 15px;
+}
+#email{
+    margin-right: 7px;
+    margin-top: 2px;
+    height: 19px;
+    border-color: black;
+    border-style: groove;
+    outline: #5e5e5e;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    bottom: 1px;
+    width: auto;
+    color: black;
+    z-index: 1;
+
+}
+#bt-enviar{
+    margin-top: 1px;
+    height: 24px;
+    border-radius: 3px;
+
+}
+#bt-enviar:hover{
+    background-color: #888;
+    transition: 0.6s;
+}
+
 #pai-outros-produtos{ 
-    margin-top: 700px;
+    margin-top: 40px;
     justify-content: center;
 }
 
@@ -334,77 +385,22 @@ h3{
   
 }
 
-@media (min-width:500px) and (max-width:1024px) /*Tela de tablet*/{
-    #imgprincipal{
+@media (max-width:500px) /*Tela de tablet*/{
+ 
 
-        position: absolute;
-        margin-top: 80px;
-        float: none;
-        width: 100vw;
-        height: 230px;
-        margin-left: 0;
-        margin-right: 0;
-    
-     
-    }
-    
-    #imgPrinc{
-        width: 100%;
-        height: 100%;
-    }
-  
 
-    #sobre{
-        position: absolute;
-        display: flex;
-        width: 100%;
-        height: 90px;
-        top: 330px;
-        overflow: hidden;
-     
-     
-     
-    }
-    
-    #ul-informes{
-    
-        text-align: center;
-        padding: 0%;
-     
-    }
-    
-    .informes{
-        margin-top: 0px;
-        width: auto;
-        height: auto;
-        margin: 0 20px;
-        text-align: left;
-        display: flex;
-        font-size: 9px;
-    
-    }
-    
-    strong{
-        font-size: 12px;
-    }
-    
-    p{  
-        padding-left: 1px;
-    }
-    .informes :last-child{
-        margin: 0px;/* last-child remover a margin do ultimo item*/
-    }
     h2{ 
-        top: 420px;
+        top: 120px;
         text-align: center;
         height: 20px;
         width:100%;
         margin-top: 2px;
         position: absolute;
     
+    
     }
     #pai-produtos{
-        top:440px ;
+        top:170px ;
         display: flex;
         position: relative;
         width:100% ;
@@ -413,7 +409,7 @@ h3{
      
     }
     #pai-outros-produtos{ 
-        margin-top: 1250px;
+        margin-top: 1500px;
         justify-content: center;
      
     }
@@ -468,7 +464,7 @@ h3{
 
 }
 
-@media(min-width:320px ) and (max-width:499px) /*tela de celular*/{
+@media(min-width:320px ) and (max-width:420px) /*tela de celular*/{
     #pesquisa{
  
         height: 20px;
@@ -479,7 +475,7 @@ h3{
         margin-left: 10px;
         text-align: center;
         display: flex;
-        width: 69%;
+        width: 60%;
      
      }
      
@@ -503,23 +499,13 @@ h3{
      }
 
 
-    h1{ 
-        position: absolute;
-        margin-left: 1px;
-        font-family: "Dancing Script", cursive;;
-        font-size: 15px;
-        text-align: center;
-        margin-top: 25px;
-        width: 100%;
-        height: 20px;
-    
-      
-    }
+  
 
     nav{
         margin-top: 20px;
         display: flex; 
         width: 100%; 
+        display: none;
     }
 
     #imgprincipal{
@@ -528,35 +514,20 @@ h3{
         margin-top: 80px;
         float: none;
         width: 100vw;
-        height: 280px;
+        height: 150px;
         margin-left: 0;
         margin-right: 0;
-     
-      
-        
-      
     
      
-    }
-    #imgPrinc{
-        display: none;
-      
-    }
-    #imgMobile{
-       width: 100%;
-       height: 300;
-       border-radius: 4px;
     }
 
     #sobre{
         position: absolute;
         display: flex;
         width: 100%;
-        height: 60px;
-        top: 300px;
+        height: 70px;
+        top: 250px;
         text-align: center;
-    
-   
        
  
        
@@ -565,7 +536,6 @@ h3{
     
      
     }
-   
     
     #ul-informes{
     
@@ -573,60 +543,20 @@ h3{
         padding: 0%;
         flex-wrap: wrap;
         margin: auto;
-        color: #ffffff;
-   
      
       
      
      
     }
-    
-    .informes{
-        margin-top: 0px;
-        width: auto;
-        height: auto;
-        margin: 0 17px;
-        text-align: left;
-        display: flex;
-        font-size: 9px;
-        margin-bottom: 8px;
-        padding-left: 3px;
-      
-     
-  
-    
-      
-    
-    }
-  
-    strong{
-        font-size: 9px;
-       
-       
-    }
-    ul .informes:nth-child(2) {
-        margin-left: 0px;
-     
-    }
-    ul .informes:nth-child(3) {
-        display: none;
-    
-      
-    }
-    ul .informes:last-child {
-        display: none;
-      
-
+    #voltar{
+        justify-content: left;
+        margin-top: 0%;
+        z-index: 3;
     }
     
-    .icones-retorne{
-        width: 17px;
-        height: 17px;
-        cursor: pointer;
     
-    }
     h2{ 
-        top: 370px;
+        top: 40px;
         text-align: center;
         height: 20px;
         width:100%;
@@ -634,8 +564,9 @@ h3{
         position: absolute;
     
     }
+  
     #pai-produtos{
-        top:390px ;
+        top:80px ;
         display: flex;
         position: relative;
         width:100% ;
@@ -667,12 +598,14 @@ h3{
         overflow: hidden;
         margin: auto;
         padding-bottom: 17px;
+       
     
     }
     .div-roupas{
         width: 200px;
         height: 150px;
         overflow: hidden;
+     
        
       
     }
@@ -684,7 +617,7 @@ h3{
        
     }
     #pai-outros-produtos{ 
-        margin-top: 940px;
+        margin-top: 100px;
         justify-content: center;
     }
 
@@ -693,6 +626,7 @@ h3{
         display: flex;
         justify-content: center;
         margin-bottom: -110px;
+        
     }
 
     .div-outros-produtos{
@@ -701,6 +635,7 @@ h3{
         width: 456px;
         overflow: hidden;
         border-radius: 4px;
+        
     }
     #rodape{
         margin-top: 50px;
@@ -728,29 +663,8 @@ h3{
         font-size: 11px;
         text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #pai-cadastro{
+        margin-top: 1120px;
+        background-color: rgba(184, 184, 184, 0.829);
+    }
 }
-
-
-
-
-
