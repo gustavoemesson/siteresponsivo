@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: auto;
     background-color: white;
@@ -24,7 +27,7 @@ body{
 
 }
 #cabecalho{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: fixed;
     z-index: 1;
  
@@ -75,6 +78,9 @@ header{
 nav{
     display: flex; 
     width: 100%; 
+}
+nav ul li:first-child{
+    text-decoration: underline;
 }
 
 
@@ -568,6 +574,7 @@ h3{
    
     
     #ul-informes{
+        display: none;
     
       
         padding: 0%;
